@@ -4,7 +4,7 @@ const Inventory = () => {
 
     const handleAddProduct = () =>{
         const product = {}
-       fetch('http://localhost:5000/addProducts',{
+       fetch('https://enigmatic-reef-86608.herokuapp.com/addProducts',{
            method:"POST",
            headers:{
                'Content-Type':'application/json'
